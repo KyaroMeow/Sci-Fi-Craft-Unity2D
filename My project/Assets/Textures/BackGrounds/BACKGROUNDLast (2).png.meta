@@ -1,64 +1,55 @@
 fileFormatVersion: 2
-guid: 61192a57021c10041937db09be5e30a8
+guid: 1f268af27d766bf48a9db2af8ea4bc99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8122867284383892820
-    second: Footer_dark_0
+      213: -4767358088060991585
+    second: BACKGROUNDLast (2)_0
   - first:
-      213: -5469420074464685191
-    second: Footer_dark_1
+      213: 4197406053819425685
+    second: BACKGROUNDLast (2)_1
   - first:
-      213: -5134289222021000264
-    second: Footer_dark_2
+      213: 1425333784319907005
+    second: BACKGROUNDLast (2)_2
   - first:
-      213: 6943165942990855707
-    second: Footer_dark_3
+      213: -5609862952492805880
+    second: BACKGROUNDLast (2)_3
   - first:
-      213: -1902992212197487055
-    second: Footer_dark_4
+      213: -92181756913634504
+    second: BACKGROUNDLast (2)_4
   - first:
-      213: 3302245685345337687
-    second: Footer_dark_5
+      213: -8807774266091953998
+    second: BACKGROUNDLast (2)_5
   - first:
-      213: 7187665122349066479
-    second: Footer_dark_6
+      213: -597841051822332890
+    second: BACKGROUNDLast (2)_6
   - first:
-      213: -3210933494250124818
-    second: Footer_dark_7
+      213: 8208825590263344312
+    second: BACKGROUNDLast (2)_7
   - first:
-      213: 5865441951652278116
-    second: Footer_dark_8
+      213: -5654400202482563673
+    second: BACKGROUNDLast (2)_8
   - first:
-      213: -4744437940646701361
-    second: Footer_dark_9
+      213: 3786639238167814670
+    second: BACKGROUNDLast (2)_9
   - first:
-      213: -8477033806303528877
-    second: Footer_dark_10
+      213: -8078282232722214411
+    second: BACKGROUNDLast (2)_10
   - first:
-      213: -8606073692933241750
-    second: Footer_dark_11
+      213: -4165602132310953625
+    second: BACKGROUNDLast (2)_11
   - first:
-      213: -6583926792294240320
-    second: Footer_dark_12
+      213: 175120741124202988
+    second: BACKGROUNDLast (2)_12
   - first:
-      213: 5281567386753709809
-    second: Footer_dark_13
+      213: 6309156617922939654
+    second: BACKGROUNDLast (2)_13
   - first:
-      213: 7729000229829455042
-    second: Footer_dark_14
+      213: -2458067425221313395
+    second: BACKGROUNDLast (2)_14
   - first:
-      213: 1690985302078498860
-    second: Footer_dark_15
-  - first:
-      213: 951065150387431403
-    second: Footer_dark_16
-  - first:
-      213: 5624610497037579782
-    second: Footer_dark_17
-  - first:
-      213: 4504672729364373276
-    second: Footer_dark_18
+      213: 5502880860744781499
+    second: BACKGROUNDLast (2)_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -91,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +117,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -167,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Footer_dark_0
+      name: BACKGROUNDLast (2)_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 13
-        width: 8
-        height: 11
+        x: 1
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caaf7acdd37c54f80800000000000000
-      internalID: -8122867284383892820
+      spriteID: f970a04d311f6ddb0800000000000000
+      internalID: -4767358088060991585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_1
+      name: BACKGROUNDLast (2)_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 13
-        width: 25
-        height: 11
+        x: 260
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9735426ab67b814b0800000000000000
-      internalID: -5469420074464685191
+      spriteID: 5932bff219e204a30800000000000000
+      internalID: 4197406053819425685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_2
+      name: BACKGROUNDLast (2)_2
       rect:
         serializedVersion: 2
-        x: 45
-        y: 13
-        width: 9
-        height: 10
+        x: 519
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b3525bb7275fb8b0800000000000000
-      internalID: -5134289222021000264
+      spriteID: db450cc668dc7c310800000000000000
+      internalID: 1425333784319907005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_3
+      name: BACKGROUNDLast (2)_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 11
-        width: 8
-        height: 12
+        x: 778
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1e5f8083a41b5060800000000000000
-      internalID: 6943165942990855707
+      spriteID: 801da06fd53c522b0800000000000000
+      internalID: -5609862952492805880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_4
+      name: BACKGROUNDLast (2)_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 13
-        width: 16
-        height: 11
+        x: 1037
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13e42ad5aa63795e0800000000000000
-      internalID: -1902992212197487055
+      spriteID: 83334643e2188bef0800000000000000
+      internalID: -92181756913634504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_5
+      name: BACKGROUNDLast (2)_5
       rect:
         serializedVersion: 2
-        x: 78
-        y: 11
-        width: 16
-        height: 13
+        x: 1296
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 751431c64fee3dd20800000000000000
-      internalID: 3302245685345337687
+      spriteID: 2b023c778ff74c580800000000000000
+      internalID: -8807774266091953998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_6
+      name: BACKGROUNDLast (2)_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 0
-        width: 18
-        height: 24
+        x: 1555
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe8a41ec857bfb360800000000000000
-      internalID: 7187665122349066479
+      spriteID: 624ebf91bba04b7f0800000000000000
+      internalID: -597841051822332890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_7
+      name: BACKGROUNDLast (2)_7
       rect:
         serializedVersion: 2
-        x: 115
-        y: 0
-        width: 11
-        height: 13
+        x: 1814
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee941ddcff87073d0800000000000000
-      internalID: -3210933494250124818
+      spriteID: 8bc68c2d16b9be170800000000000000
+      internalID: 8208825590263344312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_8
+      name: BACKGROUNDLast (2)_8
       rect:
         serializedVersion: 2
-        x: 125
-        y: 0
-        width: 24
-        height: 13
+        x: 2073
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46f68eae06c366150800000000000000
-      internalID: 5865441951652278116
+      spriteID: 7a5412169f88781b0800000000000000
+      internalID: -5654400202482563673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_9
+      name: BACKGROUNDLast (2)_9
       rect:
         serializedVersion: 2
-        x: 149
-        y: 0
-        width: 12
-        height: 13
+        x: 2332
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +361,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc61ed084de582eb0800000000000000
-      internalID: -4744437940646701361
+      spriteID: e026c8b1358dc8430800000000000000
+      internalID: 3786639238167814670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_10
+      name: BACKGROUNDLast (2)_10
       rect:
         serializedVersion: 2
-        x: 161
-        y: 0
-        width: 15
-        height: 13
+        x: 2591
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 358fc4a9aa68b5a80800000000000000
-      internalID: -8477033806303528877
+      spriteID: 5f13e332c1d24ef80800000000000000
+      internalID: -8078282232722214411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_11
+      name: BACKGROUNDLast (2)_11
       rect:
         serializedVersion: 2
-        x: 175
-        y: 0
-        width: 19
-        height: 13
+        x: 2850
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +403,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6441edb295119880800000000000000
-      internalID: -8606073692933241750
+      spriteID: 761fef35eeec036c0800000000000000
+      internalID: -4165602132310953625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_12
+      name: BACKGROUNDLast (2)_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 9
-        height: 11
+        x: 3109
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cfef1e277131a4a0800000000000000
-      internalID: -6583926792294240320
+      spriteID: ce1e28fd2672e6200800000000000000
+      internalID: 175120741124202988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_13
+      name: BACKGROUNDLast (2)_13
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 16
-        height: 9
+        x: 3368
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +445,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f63eb82e85eb4940800000000000000
-      internalID: 5281567386753709809
+      spriteID: 60b0a934480ae8750800000000000000
+      internalID: 6309156617922939654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_14
+      name: BACKGROUNDLast (2)_14
       rect:
         serializedVersion: 2
-        x: 23
-        y: 0
-        width: 11
-        height: 11
+        x: 3627
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +466,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cca5ef42cce24b60800000000000000
-      internalID: 7729000229829455042
+      spriteID: d8c79bd33b033edd0800000000000000
+      internalID: -2458067425221313395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footer_dark_15
+      name: BACKGROUNDLast (2)_15
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 12
-        height: 11
+        x: 3886
+        y: 1
+        width: 258
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,71 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c28abca4c26977710800000000000000
-      internalID: 1690985302078498860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Footer_dark_16
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be7a81f17bcd23d00800000000000000
-      internalID: 951065150387431403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Footer_dark_17
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 23
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 606bbd35271ae0e40800000000000000
-      internalID: 5624610497037579782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Footer_dark_18
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 0
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1f17270bffc38e30800000000000000
-      internalID: 4504672729364373276
+      spriteID: bbe0df1ccf82e5c40800000000000000
+      internalID: 5502880860744781499
       vertices: []
       indices: 
       edges: []
@@ -576,25 +504,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Footer_dark_0: -8122867284383892820
-      Footer_dark_1: -5469420074464685191
-      Footer_dark_10: -8477033806303528877
-      Footer_dark_11: -8606073692933241750
-      Footer_dark_12: -6583926792294240320
-      Footer_dark_13: 5281567386753709809
-      Footer_dark_14: 7729000229829455042
-      Footer_dark_15: 1690985302078498860
-      Footer_dark_16: 951065150387431403
-      Footer_dark_17: 5624610497037579782
-      Footer_dark_18: 4504672729364373276
-      Footer_dark_2: -5134289222021000264
-      Footer_dark_3: 6943165942990855707
-      Footer_dark_4: -1902992212197487055
-      Footer_dark_5: 3302245685345337687
-      Footer_dark_6: 7187665122349066479
-      Footer_dark_7: -3210933494250124818
-      Footer_dark_8: 5865441951652278116
-      Footer_dark_9: -4744437940646701361
+      BACKGROUNDLast (2)_0: -4767358088060991585
+      BACKGROUNDLast (2)_1: 4197406053819425685
+      BACKGROUNDLast (2)_10: -8078282232722214411
+      BACKGROUNDLast (2)_11: -4165602132310953625
+      BACKGROUNDLast (2)_12: 175120741124202988
+      BACKGROUNDLast (2)_13: 6309156617922939654
+      BACKGROUNDLast (2)_14: -2458067425221313395
+      BACKGROUNDLast (2)_15: 5502880860744781499
+      BACKGROUNDLast (2)_2: 1425333784319907005
+      BACKGROUNDLast (2)_3: -5609862952492805880
+      BACKGROUNDLast (2)_4: -92181756913634504
+      BACKGROUNDLast (2)_5: -8807774266091953998
+      BACKGROUNDLast (2)_6: -597841051822332890
+      BACKGROUNDLast (2)_7: 8208825590263344312
+      BACKGROUNDLast (2)_8: -5654400202482563673
+      BACKGROUNDLast (2)_9: 3786639238167814670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
