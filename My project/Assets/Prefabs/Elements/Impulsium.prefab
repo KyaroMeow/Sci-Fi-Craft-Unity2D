@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5761451007153221042}
-  - component: {fileID: 8880274656498744199}
   - component: {fileID: 8202985822380440849}
   - component: {fileID: 8914200166633049056}
   - component: {fileID: 3716822799251150962}
+  - component: {fileID: 1734635010608458501}
   m_Layer: 0
   m_Name: Impulsium
   m_TagString: Draggable
@@ -35,19 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8880274656498744199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4727462724597770778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a61daeef4a9e242a6da62a5871ada8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Impulsium
 --- !u!212 &8202985822380440849
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 6505026738284537468, guid: 05aad4d679cf89a4fa3d61b123f44235, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 05aad4d679cf89a4fa3d61b123f44235, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.29}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -167,8 +154,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.26, y: 0.29}
-    newSize: {x: 0.24, y: 0.29}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -176,15 +163,28 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.09638406, y: -0.035653986}
-      - {x: 0.13450481, y: 0.06321783}
+      - {x: 0.13176204, y: 0.048589997}
       - {x: 0.069132164, y: 0.061788745}
       - {x: 0.01388764, y: 0.15501162}
       - {x: -0.038587302, y: 0.06404436}
-      - {x: -0.120331615, y: 0.041207183}
+      - {x: -0.124902815, y: 0.036635995}
       - {x: -0.098966725, y: 0.002404571}
-      - {x: -0.13279364, y: -0.07824641}
+      - {x: -0.1337079, y: -0.08281761}
       - {x: -0.069241814, y: -0.08472283}
-      - {x: -0.061509587, y: -0.14096747}
+      - {x: -0.06516653, y: -0.15833803}
       - {x: 0.027361019, y: -0.09745686}
-      - {x: 0.111604564, y: -0.11471753}
+      - {x: 0.1106903, y: -0.12477414}
   m_UseDelaunayMesh: 0
+--- !u!114 &1734635010608458501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4727462724597770778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22521c410c8be0438b13d925687c6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 75aec3e7deb4a54439ce9a3aa0cf6130, type: 2}

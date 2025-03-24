@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260186335279240634}
-  - component: {fileID: 2702999375502931134}
   - component: {fileID: 2150169376849021602}
   - component: {fileID: 5255155843572747330}
   - component: {fileID: 2736396220460611738}
+  - component: {fileID: -433822505166961817}
   m_Layer: 0
   m_Name: Electrum
   m_TagString: Draggable
@@ -35,19 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2702999375502931134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6074261407976840382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a61daeef4a9e242a6da62a5871ada8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Electrum
 --- !u!212 &2150169376849021602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 406715458377503907, guid: 43063b6630ae4e94fbcc8465f8ee90ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43063b6630ae4e94fbcc8465f8ee90ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.29}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -167,8 +154,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.29}
-    newSize: {x: 0.24, y: 0.29}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -184,3 +171,16 @@ PolygonCollider2D:
       - {x: -0.058256984, y: -0.12507337}
       - {x: 0.032831065, y: -0.14121903}
   m_UseDelaunayMesh: 0
+--- !u!114 &-433822505166961817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074261407976840382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22521c410c8be0438b13d925687c6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: 9f6035550f7503d458d7604787175c7d, type: 2}

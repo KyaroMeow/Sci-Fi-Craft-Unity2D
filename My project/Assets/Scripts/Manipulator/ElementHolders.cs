@@ -10,8 +10,9 @@ public class ElementHolders : MonoBehaviour
     {
         if (collision != null && collision.CompareTag("Draggable")) 
         {
-            element = collision.gameObject.GetComponent<Element>();
-            ElementImage.sprite = collision.GetComponent<SpriteRenderer>().sprite;
+            element = collision.gameObject.GetComponent<ElementBehaviour>().element;
+            ElementImage.sprite = element.elementSprite;
+            collision.gameObject.SetActive(false);
         }
     }
 }

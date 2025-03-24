@@ -8,8 +8,8 @@ public class Manipulator : MonoBehaviour
    public ElementHolders firstElement;
    public ElementHolders secondElement;
    public ElementHolders resultElement;
-   
-
+    private Dictionary<string, GameObject> reactionResults;
+    
     
     public void Cook()
     {
@@ -17,20 +17,50 @@ public class Manipulator : MonoBehaviour
         {
             animator.SetTrigger("Button");
             Debug.Log("���");
+        }else{
+            Debug.Log("null");
         }
+    }
+    public void Start()
+    {
+        int reactCount = 0;
+        reactionResults = new Dictionary<string, GameObject>();
+
+        // Заполнение реакций из элементов
+        foreach (Element element in Resources.LoadAll<Element>("Elements"))
+        {
+            foreach (ElementReaction reaction in element.reactions)
+            {
+                string key = $"{element.elementName}+{reaction.elementName}";
+                if (!reactionResults.ContainsKey(key))
+                {
+                    reactionResults.Add(key, reaction.resultPrefab);
+                    reactCount++;
+                }
+            }
+        }
+        Debug.Log("react add:"+ reactCount);
     }
     public void HideElements()
     {
         firstElement.ElementImage.sprite = null;
         secondElement.ElementImage.sprite = null;
-        resultElement.element = CheckResult(firstElement.element,secondElement.element);
+        //resultElement.element = GetResult(firstElement.element,secondElement.element);
+        string key = $"{firstElement.element.elementName}+{secondElement.element.elementName}";
+        if (reactionResults.ContainsKey(key))
+        {
+            GameObject resultPrefab = reactionResults[key];
+            Instantiate(resultPrefab, resultElement.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("Реакция не определена.");
+        }
         firstElement.element = null;
         secondElement.element = null;
     }
-    private Element CheckResult(Element firstEl,Element secondEl)
-    {
-        return new Element();
-    }
+    
+    
     public void ShowResult()
     {
 

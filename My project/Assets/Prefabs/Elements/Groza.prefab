@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1180056355057007197
+--- !u!1 &7594666556339367428
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6633022087980663784}
-  - component: {fileID: 7088205149205046695}
-  - component: {fileID: 2934542954127906065}
-  - component: {fileID: 5101906227409638093}
-  - component: {fileID: 6502975837480548306}
+  - component: {fileID: 1928974882600878736}
+  - component: {fileID: 5068181738384723760}
+  - component: {fileID: 9169153533128637179}
+  - component: {fileID: 682327107457478771}
+  - component: {fileID: 1774497960437155891}
   m_Layer: 0
-  m_Name: Ice
+  m_Name: Groza
   m_TagString: Draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6633022087980663784
+--- !u!4 &1928974882600878736
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180056355057007197}
+  m_GameObject: {fileID: 7594666556339367428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9112, y: 0.066, z: -2.8947122}
@@ -35,13 +35,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7088205149205046695
+--- !u!212 &5068181738384723760
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180056355057007197}
+  m_GameObject: {fileID: 7594666556339367428}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 0384c9ca929150e428ce243079e63eb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6702bc4f0b62a274bb82f994ce56aef3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,14 +89,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &2934542954127906065
+--- !u!50 &9169153533128637179
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180056355057007197}
+  m_GameObject: {fileID: 7594666556339367428}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -116,13 +116,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &5101906227409638093
+--- !u!60 &682327107457478771
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180056355057007197}
+  m_GameObject: {fileID: 7594666556339367428}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -162,24 +162,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.09641823, y: 0.053120743}
-      - {x: 0.07607023, y: 0.15606762}
-      - {x: -0.043005686, y: 0.06427285}
-      - {x: -0.0820936, y: -0.041070804}
-      - {x: -0.08437024, y: -0.13293655}
-      - {x: -0.014427859, y: -0.13258693}
-      - {x: 0.052867282, y: -0.06107416}
+    - - {x: 0.08570928, y: -0.02793009}
+      - {x: 0.09614096, y: 0.13762833}
+      - {x: 0.049956165, y: 0.135262}
+      - {x: -0.09954277, y: -0.013374738}
+      - {x: -0.1133255, y: -0.05471793}
+      - {x: -0.14452022, y: -0.081263594}
+      - {x: -0.1274536, y: -0.12154441}
+      - {x: 0.03876102, y: -0.12739554}
   m_UseDelaunayMesh: 0
---- !u!114 &6502975837480548306
+--- !u!114 &1774497960437155891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180056355057007197}
+  m_GameObject: {fileID: 7594666556339367428}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a22521c410c8be0438b13d925687c6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  element: {fileID: 11400000, guid: 2f242886eefb7de46912446964f4f318, type: 2}
+  element: {fileID: 11400000, guid: 3d9bad0d2fd69134aa3cd732dd9de27f, type: 2}

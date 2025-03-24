@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 53136189556657653}
-  - component: {fileID: 2565051546227423881}
   - component: {fileID: 7318703012590365055}
   - component: {fileID: 5106421451605736161}
   - component: {fileID: 4005606455075266053}
+  - component: {fileID: 6531178140096748133}
   m_Layer: 0
   m_Name: Opticum
   m_TagString: Draggable
@@ -35,19 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2565051546227423881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871475349055474097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a61daeef4a9e242a6da62a5871ada8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Opticum
 --- !u!212 &7318703012590365055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 8555668886070539820, guid: 1dee3fc89fcc322468d71dd5ed7aace9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1dee3fc89fcc322468d71dd5ed7aace9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7607843}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.29}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -167,22 +154,34 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.29}
-    newSize: {x: 0.24, y: 0.29}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.05151019, y: 0.13595481}
-      - {x: -0.00081142737, y: 0.112074435}
-      - {x: -0.06162301, y: 0.051982913}
-      - {x: -0.11387423, y: -0.018062845}
-      - {x: -0.11488124, y: -0.093765624}
+    - - {x: 0.014940675, y: 0.13504057}
+      - {x: -0.07852174, y: 0.048077706}
+      - {x: -0.13019092, y: -0.039440986}
+      - {x: -0.12859485, y: -0.08828017}
       - {x: -0.08186517, y: -0.13704108}
-      - {x: 0.04382617, y: -0.13697958}
-      - {x: 0.11617147, y: -0.07594875}
-      - {x: 0.11893607, y: 0.12486644}
-      - {x: 0.09488634, y: 0.13941427}
+      - {x: 0.023712942, y: -0.13606535}
+      - {x: 0.1061149, y: -0.075034514}
+      - {x: 0.10613673, y: 0.12578069}
+      - {x: 0.086658195, y: 0.14855663}
   m_UseDelaunayMesh: 0
+--- !u!114 &6531178140096748133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871475349055474097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22521c410c8be0438b13d925687c6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: {fileID: 11400000, guid: f6db904c3ee26754e9a5d0df0a8260c8, type: 2}
