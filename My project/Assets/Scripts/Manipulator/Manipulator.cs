@@ -45,12 +45,16 @@ public class Manipulator : MonoBehaviour
     {
         firstElement.ElementImage.sprite = null;
         secondElement.ElementImage.sprite = null;
-        //resultElement.element = GetResult(firstElement.element,secondElement.element);
+        
+    }
+    public void NewElements()
+    {
         string key = $"{firstElement.element.elementName}+{secondElement.element.elementName}";
         if (reactionResults.ContainsKey(key))
         {
             GameObject resultPrefab = reactionResults[key];
             Instantiate(resultPrefab, resultElement.transform.position, Quaternion.identity);
+            CheckNewElement(resultPrefab);
         }
         else
         {
@@ -61,8 +65,21 @@ public class Manipulator : MonoBehaviour
     }
     
     
-    public void ShowResult()
+    public void CheckNewElement(GameObject element)
     {
 
+        ElementBehaviour elementBehaviour = element.GetComponent<ElementBehaviour>();
+        if (elementBehaviour != null)
+        {
+            if (GameManager.Instance.elementState[elementBehaviour.Id] == false)//if new
+            {
+            GameManager.Instance.elementState[elementBehaviour.Id] = true;
+            string key = $"Element_{elementBehaviour.Id}_is_open";
+            PlayerPrefs.SetFloat(key,1f);
+            UIManager.Instance.SetInteractElButton(elementBehaviour.Id,true);
+            UIManager.Instance.reactionCount++;
+            PlayerPrefs.SetInt("ReactCount",UIManager.Instance.reactionCount);
+            }
+        }
     }
 }
