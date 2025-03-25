@@ -5,20 +5,36 @@ using UnityEngine;
 public class Manipulator : MonoBehaviour
 {
    public Animator animator;
-   public ElementHolders firstElement;
-   public ElementHolders secondElement;
-   public ElementHolders resultElement;
-    private Dictionary<string, GameObject> reactionResults;
+   public Transform resultElement;
+   public Collider2D Table;
+   private Dictionary<string, GameObject> reactionResults;
+   private List<ElementBehaviour> ElementsOnTable;
     
     
     public void Cook()
     {
-        if (firstElement.element != null && secondElement.element != null)
+        Bounds bounds = Table.bounds;
+        // Определяем две точки, которые задают область
+        Vector2 pointA = new Vector2(bounds.min.x, bounds.min.y);
+        Vector2 pointB = new Vector2(bounds.max.x, bounds.max.y);
+
+        // Получаем все коллайдеры внутри области
+        Collider2D[] colliders = Physics2D.OverlapAreaAll(pointA, pointB);
+        if (colliders.Length == 4)
         {
+            foreach (Collider2D collider in colliders) 
+            {
+               if(collider.CompareTag("Draggable"))
+               {
+                ElementsOnTable.Add(collider.gameObject.GetComponent<ElementBehaviour>());
+               }
+            }
             animator.SetTrigger("Button");
-            Debug.Log("���");
-        }else{
-            Debug.Log("null");
+            Debug.Log("good");
+        }
+        else
+        {
+            Debug.Log("null or many");
         }
     }
     public void Start()
@@ -41,27 +57,23 @@ public class Manipulator : MonoBehaviour
         }
         Debug.Log("react add:"+ reactCount);
     }
-    public void HideElements()
-    {
-        firstElement.ElementImage.sprite = null;
-        secondElement.ElementImage.sprite = null;
-        
-    }
     public void NewElements()
     {
-        string key = $"{firstElement.element.elementName}+{secondElement.element.elementName}";
+        string key = $"{ElementsOnTable[0].element.elementName}+{ElementsOnTable[1].element.elementName}";
+        Destroy(ElementsOnTable[0]);
+        Destroy(ElementsOnTable[1]);
         if (reactionResults.ContainsKey(key))
         {
             GameObject resultPrefab = reactionResults[key];
-            Instantiate(resultPrefab, resultElement.transform.position, Quaternion.identity);
+            Instantiate(resultPrefab, resultElement.position, Quaternion.identity);
             CheckNewElement(resultPrefab);
+
         }
         else
         {
             Debug.Log("Реакция не определена.");
         }
-        firstElement.element = null;
-        secondElement.element = null;
+
     }
     
     
