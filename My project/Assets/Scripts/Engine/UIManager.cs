@@ -17,6 +17,9 @@ public class UIManager : MonoBehaviour
     public int reactionCount;
     private bool IsElementsPanelOpen = true;
     public TextMeshProUGUI reactionCountText;
+    public GameObject ElementDescriptionPanel;
+    public TextMeshProUGUI DescriptionHeader;
+    public TextMeshProUGUI DescriptionText;
     void Start()
     {
         CheckButtonState();

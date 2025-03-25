@@ -1479,7 +1479,9 @@ GameObject:
   - component: {fileID: 367849272}
   - component: {fileID: 367849275}
   - component: {fileID: 367849274}
+  - component: {fileID: 367849277}
   - component: {fileID: 367849273}
+  - component: {fileID: 367849276}
   m_Layer: 5
   m_Name: Steamicun
   m_TagString: Untagged
@@ -1602,6 +1604,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367849271}
   m_CullTransparentMesh: 1
+--- !u!114 &367849276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367849271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 367849277}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 367849277}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &367849277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367849271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0422\u0443\u043C\u0430\u043D\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u0412\u044B\u0434\u0435\u043B\u044F\u0435\u0442 \u0433\u0443\u0441\u0442\u043E\u0439
+    \u0438\u043D\u0435\u0440\u0442\u043D\u044B\u0439 \u0433\u0430\u0437, \u0441\u043D\u0438\u0436\u0430\u044F
+    \u0432\u0438\u0434\u0438\u043C\u043E\u0441\u0442\u044C"
 --- !u!1 &368210810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,7 +1676,9 @@ GameObject:
   - component: {fileID: 368210811}
   - component: {fileID: 368210814}
   - component: {fileID: 368210813}
+  - component: {fileID: 368210816}
   - component: {fileID: 368210812}
+  - component: {fileID: 368210815}
   m_Layer: 5
   m_Name: Magnitum
   m_TagString: Untagged
@@ -1736,6 +1801,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368210810}
   m_CullTransparentMesh: 1
+--- !u!114 &368210815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368210810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 368210816}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 368210816}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &368210816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368210810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041C\u0430\u0433\u043D\u0438\u0442\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041B\u0435\u0433\u043A\u043E\u0435 \u0443\u0441\u0438\u043B\u0435\u043D\u0438\u0435
+    \u043C\u0430\u0433\u043D\u0438\u0442\u043D\u043E\u0433\u043E \u043F\u043E\u043B\u044F"
 --- !u!1 &404026565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,8 +2085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -45}
-  m_SizeDelta: {x: 345.9774, y: 50}
+  m_AnchoredPosition: {x: 0.00012207, y: -51}
+  m_SizeDelta: {x: 614.449, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &450382893
 MonoBehaviour:
@@ -2151,7 +2276,9 @@ GameObject:
   - component: {fileID: 477141881}
   - component: {fileID: 477141884}
   - component: {fileID: 477141883}
+  - component: {fileID: 477141886}
   - component: {fileID: 477141882}
+  - component: {fileID: 477141885}
   m_Layer: 5
   m_Name: Blaze
   m_TagString: Untagged
@@ -2274,6 +2401,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477141880}
   m_CullTransparentMesh: 1
+--- !u!114 &477141885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477141880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 477141886}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 477141886}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &477141886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477141880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041E\u0433\u043D\u0435\u043D\u043D\u043E\u0435 \u0421\u0435\u0440\u0434\u0446\u0435"
+  Description: "\u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0435\u0442 \u043A\u043E\u043B\u043E\u0441\u0441\u0430\u043B\u044C\u043D\u043E\u0435
+    \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u044D\u043D\u0435\u0440\u0433\u0438\u0438
+    \u043F\u0440\u0438 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0438
+    \u0441 \u043A\u043E\u0440\u0440\u043E\u0437\u0438\u043E\u043D\u043D\u044B\u043C\u0438
+    \u043C\u0435\u0442\u0430\u043B\u043B\u0430\u043C\u0438"
 --- !u!1 &514946257
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,7 +2699,9 @@ GameObject:
   - component: {fileID: 543500058}
   - component: {fileID: 543500061}
   - component: {fileID: 543500060}
+  - component: {fileID: 543500063}
   - component: {fileID: 543500059}
+  - component: {fileID: 543500062}
   m_Layer: 5
   m_Name: Plasma
   m_TagString: Untagged
@@ -2632,6 +2824,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543500057}
   m_CullTransparentMesh: 1
+--- !u!114 &543500062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543500057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 543500063}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 543500063}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &543500063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543500057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041F\u043B\u0430\u0437\u043C\u0435\u043D\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0435\u0442 \u0432\u044B\u0441\u043E\u043A\u043E\u0442\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u043D\u0443\u044E
+    \u043F\u043B\u0430\u0437\u043C\u0443 \u043F\u0440\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u0438\u0438"
 --- !u!1 &573820569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,7 +3478,9 @@ GameObject:
   - component: {fileID: 877699974}
   - component: {fileID: 877699977}
   - component: {fileID: 877699976}
+  - component: {fileID: 877699979}
   - component: {fileID: 877699975}
+  - component: {fileID: 877699978}
   m_Layer: 5
   m_Name: Srapnel
   m_TagString: Untagged
@@ -3349,6 +3603,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877699973}
   m_CullTransparentMesh: 1
+--- !u!114 &877699978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877699973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 877699979}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 877699979}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &877699979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877699973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0428\u0440\u0430\u043F\u043D\u0435\u043B\u044C\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041F\u0440\u0438 \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043D\u0438\u0438
+    \u0432\u044B\u0434\u0435\u043B\u044F\u0435\u0442 \u043A\u0438\u043D\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+    \u044D\u043D\u0435\u0440\u0433\u0438\u044E, \u0440\u0430\u0437\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u044F
+    \u043E\u0441\u043A\u043E\u043B\u043A\u0438"
 --- !u!1 &879101269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,7 +3812,9 @@ GameObject:
   - component: {fileID: 879219442}
   - component: {fileID: 879219445}
   - component: {fileID: 879219444}
+  - component: {fileID: 879219447}
   - component: {fileID: 879219443}
+  - component: {fileID: 879219446}
   m_Layer: 5
   m_Name: Firestone
   m_TagString: Untagged
@@ -3619,6 +3937,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879219441}
   m_CullTransparentMesh: 1
+--- !u!114 &879219446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879219441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 879219447}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 879219447}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &879219447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879219441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041F\u043B\u0430\u043C\u0435\u043D\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041B\u0435\u0433\u043A\u0438\u0439 \u043D\u0430\u0433\u0440\u0435\u0432
+    \u0438 \u0441\u043B\u0430\u0431\u043E\u0435 \u0432\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435
+    \u044D\u043D\u0435\u0440\u0433\u0438\u0438  "
 --- !u!1 &897872536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,7 +4009,9 @@ GameObject:
   - component: {fileID: 897872537}
   - component: {fileID: 897872540}
   - component: {fileID: 897872539}
+  - component: {fileID: 897872542}
   - component: {fileID: 897872538}
+  - component: {fileID: 897872541}
   m_Layer: 5
   m_Name: Ice
   m_TagString: Untagged
@@ -3753,6 +4134,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897872536}
   m_CullTransparentMesh: 1
+--- !u!114 &897872541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897872536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 897872542}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 897872542}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &897872542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897872536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041B\u0435\u0434\u044F\u043D\u043E\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041B\u0435\u0433\u043A\u0438\u0439 \u043E\u0445\u043B\u0430\u0436\u0434\u0430\u044E\u0449\u0438\u0439
+    \u044D\u0444\u0444\u0435\u043A\u0442 \u0438 \u0431\u0430\u0437\u043E\u0432\u0430\u044F
+    \u044D\u043D\u0435\u0440\u0433\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+    \u0441\u0442\u0430\u0431\u0438\u043B\u044C\u043D\u043E\u0441\u0442\u044C"
 --- !u!1 &959712229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,7 +4697,9 @@ GameObject:
   - component: {fileID: 1067691329}
   - component: {fileID: 1067691332}
   - component: {fileID: 1067691331}
+  - component: {fileID: 1067691334}
   - component: {fileID: 1067691330}
+  - component: {fileID: 1067691333}
   m_Layer: 5
   m_Name: Opticum
   m_TagString: Untagged
@@ -4377,6 +4822,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067691328}
   m_CullTransparentMesh: 1
+--- !u!114 &1067691333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067691328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1067691334}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1067691334}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1067691334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067691328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041E\u043F\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041D\u0435\u0439\u0442\u0440\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+    \u0438 \u043F\u0440\u043E\u043F\u0443\u0441\u043A\u0430\u043D\u0438\u0435 \u0441\u0432\u0435\u0442\u0430"
 --- !u!1 &1090317836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4523,7 +5028,9 @@ GameObject:
   - component: {fileID: 1124578698}
   - component: {fileID: 1124578701}
   - component: {fileID: 1124578700}
+  - component: {fileID: 1124578703}
   - component: {fileID: 1124578699}
+  - component: {fileID: 1124578702}
   m_Layer: 5
   m_Name: Impulsium
   m_TagString: Untagged
@@ -4646,6 +5153,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124578697}
   m_CullTransparentMesh: 1
+--- !u!114 &1124578702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124578697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1124578703}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1124578703}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1124578703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124578697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0418\u043C\u043F\u0443\u043B\u044C\u0441\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041B\u0435\u0433\u043A\u0438\u0439 \u044D\u043D\u0435\u0440\u0433\u0435\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0438\u043C\u043F\u0443\u043B\u044C\u0441"
 --- !u!1 &1178537002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4800,7 +5367,9 @@ GameObject:
   - component: {fileID: 1232496628}
   - component: {fileID: 1232496631}
   - component: {fileID: 1232496630}
+  - component: {fileID: 1232496633}
   - component: {fileID: 1232496629}
+  - component: {fileID: 1232496632}
   m_Layer: 5
   m_Name: Electrum
   m_TagString: Untagged
@@ -4923,6 +5492,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232496627}
   m_CullTransparentMesh: 1
+--- !u!114 &1232496632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232496627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1232496633}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1232496633}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1232496633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232496627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B  "
+  Description: "\u041C\u0438\u043D\u0438\u043C\u0430\u043B\u044C\u043D\u044B\u0435
+    \u044D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0435
+    \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u0430  "
 --- !u!1 &1240379314
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,6 +5605,9 @@ MonoBehaviour:
   - {fileID: 2048568039}
   reactionCount: 0
   reactionCountText: {fileID: 879101271}
+  ElementDescriptionPanel: {fileID: 2142249539}
+  DescriptionHeader: {fileID: 450382893}
+  DescriptionText: {fileID: 296870860}
 --- !u!4 &1240379316
 Transform:
   m_ObjectHideFlags: 0
@@ -5103,7 +5736,9 @@ GameObject:
   - component: {fileID: 1323509159}
   - component: {fileID: 1323509162}
   - component: {fileID: 1323509161}
+  - component: {fileID: 1323509164}
   - component: {fileID: 1323509160}
+  - component: {fileID: 1323509163}
   m_Layer: 5
   m_Name: Fotonium
   m_TagString: Untagged
@@ -5226,6 +5861,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323509158}
   m_CullTransparentMesh: 1
+--- !u!114 &1323509163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323509158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1323509164}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1323509164}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1323509164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323509158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0424\u043E\u0442\u043E\u043D\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041F\u0440\u0435\u043B\u043E\u043C\u043B\u044F\u0435\u0442 \u0438
+    \u043A\u043E\u043D\u0446\u0435\u043D\u0442\u0440\u0438\u0440\u0443\u0435\u0442
+    \u0441\u0432\u0435\u0442, \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u044F \u043C\u043E\u0449\u043D\u044B\u0435
+    \u043B\u0443\u0447\u0438"
 --- !u!1 &1351549144
 GameObject:
   m_ObjectHideFlags: 0
@@ -6783,7 +7480,9 @@ GameObject:
   - component: {fileID: 1826061502}
   - component: {fileID: 1826061505}
   - component: {fileID: 1826061504}
+  - component: {fileID: 1826061507}
   - component: {fileID: 1826061503}
+  - component: {fileID: 1826061506}
   m_Layer: 5
   m_Name: Azot
   m_TagString: Untagged
@@ -6906,6 +7605,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826061501}
   m_CullTransparentMesh: 1
+--- !u!114 &1826061506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826061501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1826061507}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1826061507}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1826061507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826061501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0410\u0437\u043E\u0442\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u041F\u043E\u0433\u043B\u043E\u0449\u0430\u0435\u0442 \u0442\u0435\u043F\u043B\u043E,
+    \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u044F \u043C\u043E\u0449\u043D\u044B\u0439
+    \u043E\u0445\u043B\u0430\u0436\u0434\u0430\u044E\u0449\u0438\u0439 \u044D\u0444\u0444\u0435\u043A\u0442"
 --- !u!1 &1836448877
 GameObject:
   m_ObjectHideFlags: 0
@@ -6917,7 +7677,9 @@ GameObject:
   - component: {fileID: 1836448878}
   - component: {fileID: 1836448881}
   - component: {fileID: 1836448880}
+  - component: {fileID: 1836448883}
   - component: {fileID: 1836448879}
+  - component: {fileID: 1836448882}
   m_Layer: 5
   m_Name: Graviton
   m_TagString: Untagged
@@ -7040,6 +7802,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836448877}
   m_CullTransparentMesh: 1
+--- !u!114 &1836448882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836448877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1836448883}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1836448883}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1836448883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836448877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0413\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0439
+    \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u0418\u0437\u043C\u0435\u043D\u044F\u0435\u0442 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E\u0435
+    \u0433\u0440\u0430\u0432\u0438\u0442\u0430\u0446\u0438\u043E\u043D\u043D\u043E\u0435
+    \u043F\u043E\u043B\u0435, \u0432\u044B\u0437\u044B\u0432\u0430\u044F \u043A\u0440\u0430\u0442\u043A\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435
+    \u0441\u043A\u0430\u0447\u043A\u0438"
 --- !u!1 &1847011420
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,7 +8352,9 @@ GameObject:
   - component: {fileID: 2048568040}
   - component: {fileID: 2048568043}
   - component: {fileID: 2048568042}
+  - component: {fileID: 2048568045}
   - component: {fileID: 2048568041}
+  - component: {fileID: 2048568044}
   m_Layer: 5
   m_Name: Corrozion
   m_TagString: Untagged
@@ -7650,6 +8477,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048568039}
   m_CullTransparentMesh: 1
+--- !u!114 &2048568044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048568039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2048568045}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2048568045}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2048568045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048568039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u041A\u043E\u0440\u0440\u043E\u0437\u0438\u0439\u043D\u044B\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u0412\u044B\u0434\u0435\u043B\u044F\u0435\u0442 \u0430\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043D\u0443\u044E
+    \u044D\u043D\u0435\u0440\u0433\u0438\u044E, \u0440\u0430\u0437\u0440\u0443\u0448\u0430\u044E\u0449\u0443\u044E
+    \u043E\u0440\u0433\u0430\u043D\u0438\u043A\u0443 \u0438 \u043C\u0435\u0442\u0430\u043B\u043B"
 --- !u!1 &2107467392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7661,7 +8549,9 @@ GameObject:
   - component: {fileID: 2107467393}
   - component: {fileID: 2107467396}
   - component: {fileID: 2107467395}
+  - component: {fileID: 2107467398}
   - component: {fileID: 2107467394}
+  - component: {fileID: 2107467397}
   m_Layer: 5
   m_Name: Groza
   m_TagString: Untagged
@@ -7784,6 +8674,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107467392}
   m_CullTransparentMesh: 1
+--- !u!114 &2107467397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107467392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2107467398}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: ShowDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2107467398}
+          m_TargetAssemblyTypeName: ElementDescription, Assembly-CSharp
+          m_MethodName: HideDescription
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2107467398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107467392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52212a2a9a4e5354891c27bdf9f0bfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: "\u0413\u0440\u043E\u0437\u043E\u0432\u043E\u0439 \u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B"
+  Description: "\u0412\u044B\u0434\u0435\u043B\u044F\u0435\u0442 \u043C\u043E\u0449\u043D\u044B\u0439
+    \u044D\u043B\u0435\u043A\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u0437\u0430\u0440\u044F\u0434 \u043F\u0440\u0438 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0435"
 --- !u!1 &2142249539
 GameObject:
   m_ObjectHideFlags: 0
@@ -7796,7 +8747,7 @@ GameObject:
   - component: {fileID: 2142249542}
   - component: {fileID: 2142249541}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: ElementDescriptionPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
