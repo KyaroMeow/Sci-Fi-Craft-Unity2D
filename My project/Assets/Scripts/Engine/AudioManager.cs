@@ -1,10 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+    public float SFXVolume;
+    public float MusicVolume;
     void Awake()
     {
         if (Instance == null)
@@ -19,11 +20,20 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        SFXVolume = PlayerPrefs.GetFloat("SFXVolume");
+        MusicVolume = PlayerPrefs.GetFloat("MusicVolume");
     }
-
-    // Update is called once per frame
-    void Update()
+    public void SetVolume(string type,float volume)
     {
-        
+        switch(type){
+            case "SFX":
+            SFXVolume = volume;
+            PlayerPrefs.SetFloat("SFXVolume",volume);
+            break;
+            case "Music":
+            MusicVolume = volume;
+            PlayerPrefs.SetFloat("MusicVolume",volume);
+            break;
+        }
     }
 }

@@ -2,14 +2,25 @@ using UnityEngine;
 
 public class DragManager : MonoBehaviour
 {
-    private GameObject draggedObject;
+    public GameObject draggedObject;
     private Vector3 offset;
     private Vector3 lastMousePosition;
     private Vector3 velocity = Vector3.zero;
     public float maxThrowSpeed = 10f; // Максимальная скорость броска
     public float collisionRadius = 0.5f; // Радиус для проверки столкновений
     public float downwardForce = 5f; // Сила, тянущая объект вниз
-
+    public static DragManager Instance;
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

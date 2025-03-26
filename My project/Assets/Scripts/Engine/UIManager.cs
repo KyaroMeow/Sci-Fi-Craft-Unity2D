@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+    public Animator animator;
     public static UIManager Instance;
     public RectTransform elementsPanel;
     public Vector2 targetPositionOpen;
@@ -14,16 +15,21 @@ public class UIManager : MonoBehaviour
     public RectTransform ButtonImage;
     public float animationDuration = 1f;
     public GameObject[] elButtons;
-    public int reactionCount;
-    private bool IsElementsPanelOpen = true;
     public TextMeshProUGUI reactionCountText;
     public GameObject ElementDescriptionPanel;
     public TextMeshProUGUI DescriptionHeader;
     public TextMeshProUGUI DescriptionText;
+    public Slider SFXVolumeSlider;
+    public int reactionCount;
+    public Slider MusicVolumeSlider;
+    private bool IsElementsPanelOpen = true;
+    private bool settingsIsOpen = false;
     void Start()
     {
         CheckButtonState();
         reactionCount = PlayerPrefs.GetInt("ReactCount");
+        SFXVolumeSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+        MusicVolumeSlider.value = PlayerPrefs.GetFloat("MusicVolume");
     }
     private void Update()
     {
@@ -61,12 +67,31 @@ public class UIManager : MonoBehaviour
         }
 
     }
+    public void SetVolumeSettings()
+    {
+        AudioManager.Instance.SetVolume("SFX",SFXVolumeSlider.value);
+        AudioManager.Instance.SetVolume("Music",MusicVolumeSlider.value);
+    }
     private void CheckButtonState()
     {
       foreach(var element in GameManager.Instance.elementState)
       {
             SetInteractElButton(element.Key, element.Value);
       }
+    }
+    public void Exit()
+    {
+        SceneManager.LoadScene(0);
+    }
+        public void settingsClick()
+    {
+        if(settingsIsOpen){
+            animator.SetTrigger("Close");
+        }
+        else{
+            animator.SetTrigger("Open");
+        }
+        settingsIsOpen = !settingsIsOpen;
     }
     private void OpenPanel()
     {

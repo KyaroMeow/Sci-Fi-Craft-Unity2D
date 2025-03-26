@@ -26,6 +26,7 @@ public class Manipulator : MonoBehaviour
         Collider2D[] colliders = Physics2D.OverlapAreaAll(pointA, pointB);
         if (colliders.Length == 4)
         {
+            SFXSource.Instance.PlayCoock();
             foreach (Collider2D collider in colliders) 
             {
                if(collider.CompareTag("Draggable"))
@@ -44,6 +45,7 @@ public class Manipulator : MonoBehaviour
         }
         else
         {
+            SFXSource.Instance.PlayError();
             Debug.Log("null or many");
         }
     }
@@ -90,6 +92,7 @@ public class Manipulator : MonoBehaviour
         if (!isReact)
         {
             textAnimator.SetTrigger("NoReact");
+            SFXSource.Instance.PlayError();
         }
 
     }

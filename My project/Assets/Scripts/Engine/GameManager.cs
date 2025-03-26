@@ -1,12 +1,11 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+  
     public Dictionary<int, bool> elementState = new Dictionary<int, bool>()
 {
     {1, true},
@@ -36,23 +35,13 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        LoadElementState();
     }
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
-    public void ClearPlayerPrefs()
-    {
-        PlayerPrefs.DeleteAll();
-    }
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
+    
+
     public void LoadElementState()
     {
         for (int i = 1; i <= 15; i++)
