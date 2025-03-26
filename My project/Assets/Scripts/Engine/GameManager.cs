@@ -45,6 +45,10 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void ClearPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     public void StartGame()
     {
         SceneManager.LoadScene(1);
@@ -65,12 +69,6 @@ public class GameManager : MonoBehaviour
                     elementState[i] = false;
                 }
             }
-            else
-            {
-                elementState[i] = true;
-            }
         }
     }
-
-
 }

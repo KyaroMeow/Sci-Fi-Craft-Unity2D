@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Manipulator : MonoBehaviour
 {
-   public Animator animator;
+   public Animator manipulatorAnimator;
+   public Animator textAnimator;
    public Transform resultElement;
    public Collider2D Table;
    private Dictionary<string, GameObject> reactionResults;
@@ -38,7 +39,7 @@ public class Manipulator : MonoBehaviour
                 }
                }
             }
-            animator.SetTrigger("Button");
+            manipulatorAnimator.SetTrigger("Button");
             Debug.Log("good");
         }
         else
@@ -86,6 +87,10 @@ public class Manipulator : MonoBehaviour
     }
     public void ShowNoReactions()
     {
+        if (!isReact)
+        {
+            textAnimator.SetTrigger("NoReact");
+        }
 
     }
     
