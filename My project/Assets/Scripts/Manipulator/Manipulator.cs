@@ -8,11 +8,14 @@ public class Manipulator : MonoBehaviour
    public Transform resultElement;
    public Collider2D Table;
    private Dictionary<string, GameObject> reactionResults;
-   private List<ElementBehaviour> ElementsOnTable;
-    
+   private List<GameObject> ElementsOnTable = new List<GameObject>();
+
+   private bool isReact = false;
     
     public void Cook()
     {
+        isReact = false;
+        ElementsOnTable.Clear();
         Bounds bounds = Table.bounds;
         // Определяем две точки, которые задают область
         Vector2 pointA = new Vector2(bounds.min.x, bounds.min.y);
@@ -26,7 +29,13 @@ public class Manipulator : MonoBehaviour
             {
                if(collider.CompareTag("Draggable"))
                {
-                ElementsOnTable.Add(collider.gameObject.GetComponent<ElementBehaviour>());
+                if(collider.gameObject.GetComponent<ElementBehaviour>()!=null)
+                {
+                ElementsOnTable.Add(collider.gameObject);
+                }
+                else{
+                    Debug.Log("script not found");
+                }
                }
             }
             animator.SetTrigger("Button");
@@ -59,20 +68,24 @@ public class Manipulator : MonoBehaviour
     }
     public void NewElements()
     {
-        string key = $"{ElementsOnTable[0].element.elementName}+{ElementsOnTable[1].element.elementName}";
+        string key = $"{ElementsOnTable[0].GetComponent<ElementBehaviour>().element.elementName}+{ElementsOnTable[1].GetComponent<ElementBehaviour>().element.elementName}";
         Destroy(ElementsOnTable[0]);
         Destroy(ElementsOnTable[1]);
         if (reactionResults.ContainsKey(key))
         {
+            isReact = true;
             GameObject resultPrefab = reactionResults[key];
             Instantiate(resultPrefab, resultElement.position, Quaternion.identity);
             CheckNewElement(resultPrefab);
-
         }
         else
         {
             Debug.Log("Реакция не определена.");
         }
+
+    }
+    public void ShowNoReactions()
+    {
 
     }
     
