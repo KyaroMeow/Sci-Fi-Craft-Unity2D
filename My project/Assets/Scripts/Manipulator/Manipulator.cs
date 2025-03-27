@@ -85,6 +85,10 @@ public class Manipulator : MonoBehaviour
         {
             Debug.Log("Реакция не определена.");
         }
+        if (key == "Corrozion+Blaze"|| key == "Blaze+Corrozion")
+        {
+            UIManager.Instance.StartEndScene();
+        }
 
     }
     public void ShowNoReactions()

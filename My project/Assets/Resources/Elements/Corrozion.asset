@@ -17,4 +17,4 @@ MonoBehaviour:
   elementPrefab: {fileID: 690747962857520977, guid: 4ba5d0a365f3b4845b0392194b3dea42, type: 3}
   reactions:
   - elementName: Blaze
-    resultPrefab: {fileID: 0}
+    resultPrefab: {fileID: 3453387608861099327, guid: a6623e0223e25dc4698c48c484882ca6, type: 3}

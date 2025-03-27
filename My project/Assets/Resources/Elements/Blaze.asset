@@ -17,4 +17,4 @@ MonoBehaviour:
   elementPrefab: {fileID: 6099507194774788003, guid: 5e598ba1bc525a1469deaf8d0a5e977f, type: 3}
   reactions:
   - elementName: Corrozion
-    resultPrefab: {fileID: 0}
+    resultPrefab: {fileID: 3453387608861099327, guid: a6623e0223e25dc4698c48c484882ca6, type: 3}

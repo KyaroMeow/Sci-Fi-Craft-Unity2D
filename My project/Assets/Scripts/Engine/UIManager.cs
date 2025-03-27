@@ -22,6 +22,8 @@ public class UIManager : MonoBehaviour
     public Slider SFXVolumeSlider;
     public int reactionCount;
     public Slider MusicVolumeSlider;
+    public GameObject HelloPanel;
+    public GameObject EndScene;
     private bool IsElementsPanelOpen = true;
     private bool settingsIsOpen = false;
     void Start()
@@ -30,6 +32,10 @@ public class UIManager : MonoBehaviour
         reactionCount = PlayerPrefs.GetInt("ReactCount");
         SFXVolumeSlider.value = PlayerPrefs.GetFloat("SFXVolume");
         MusicVolumeSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+        if (PlayerPrefs.GetInt("FirstGameSisseion") == 0)
+        {
+            HelloPanel.SetActive(true);
+        }
     }
     private void Update()
     {
@@ -46,6 +52,10 @@ public class UIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void StartEndScene()
+    {
+        EndScene.SetActive(true);
     }
     public void ClickElementsPanel()
     {

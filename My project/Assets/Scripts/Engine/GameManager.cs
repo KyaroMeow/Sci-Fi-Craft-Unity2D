@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-  
     public Dictionary<int, bool> elementState = new Dictionary<int, bool>()
 {
     {1, true},
@@ -59,5 +58,10 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
+    }
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.SetInt("FirstGameSisseion", 1);
+        PlayerPrefs.Save();
     }
 }
