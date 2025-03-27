@@ -4235,9 +4235,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa918892e9fe7e74ba603887ef355018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 1540797791}
+  SFXAudioSource: {fileID: 1540797791}
+  MusicAudioSource: {fileID: 0}
+  ScaryAmbient: {fileID: 0}
+  Alarm: {fileID: 0}
   hower: {fileID: 8300000, guid: 0bffc80ed7b4ca942afbff2d183295e4, type: 3}
   click: {fileID: 8300000, guid: 893d6b8e68a7c5b4d91f0f5e036db522, type: 3}
+  coock: {fileID: 0}
+  error: {fileID: 0}
 --- !u!82 &2077239229
 AudioSource:
   m_ObjectHideFlags: 0

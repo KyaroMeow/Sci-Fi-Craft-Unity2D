@@ -4,7 +4,10 @@ public class SFXSource : MonoBehaviour
 {
     public static SFXSource Instance;
 
-    public AudioSource audioSource;
+    public AudioSource SFXAudioSource;
+    public AudioSource MusicAudioSource;
+    public AudioClip ScaryAmbient;
+    public AudioClip Alarm;
     public AudioClip hower;
     public AudioClip click;
     public AudioClip coock;
@@ -21,15 +24,15 @@ public class SFXSource : MonoBehaviour
         }
     }
     public void PlayHower(){
-        audioSource.PlayOneShot(hower);
+        SFXAudioSource.PlayOneShot(hower);
     }
     public void PlayClick(){
-        audioSource.PlayOneShot(click);
+        SFXAudioSource.PlayOneShot(click);
     }
     public void PlayCoock(){
-        audioSource.PlayOneShot(coock);
+        SFXAudioSource.PlayOneShot(coock);
     }
     public void PlayError(){
-        audioSource.PlayOneShot(error);
+        SFXAudioSource.PlayOneShot(error);
     }
 }

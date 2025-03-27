@@ -10,7 +10,10 @@ public class EndScene : MonoBehaviour
     [Range(0.01f, 1f)]
     public float typingSpeed = 0.05f;
     public TextMeshProUGUI uiText;
-    public Animator animator;
+    public Animator RedLightBack;
+    public Animator RedLightManipulator;
+    public Animator CrystalAnimator;
+    public GameObject Crystal;
     private Coroutine typingCoroutine;
     private int currentMessageIndex = 0;
     private bool isTyping = false;
@@ -21,6 +24,7 @@ public class EndScene : MonoBehaviour
         {
             StartTyping();
         }
+        Crystal.SetActive(true);
     }
     private void StartTyping()
     {
@@ -63,9 +67,9 @@ public class EndScene : MonoBehaviour
             {
                 currentMessageIndex++;
                 StartTyping();
-                if (currentMessageIndex == 1)
+                if (currentMessageIndex == 8)
                 {
-                    //animator.SetTrigger("MoveRight");
+                    CrystalAnimator.SetTrigger("Pulse");
                 }
             }
             else
