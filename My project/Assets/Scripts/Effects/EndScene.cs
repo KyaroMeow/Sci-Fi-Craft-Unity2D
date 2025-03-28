@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EndScene : MonoBehaviour
 {
@@ -14,6 +15,13 @@ public class EndScene : MonoBehaviour
     public Animator RedLightManipulator;
     public Animator CrystalAnimator;
     public GameObject Crystal;
+    public Image image;
+    public Sprite Scary;
+    public Sprite Fear;
+    public Sprite Wow;
+    public Sprite Cry;
+    public Sprite Good;
+    public GameObject FinalBoomPanel;
     private Coroutine typingCoroutine;
     private int currentMessageIndex = 0;
     private bool isTyping = false;
@@ -25,6 +33,8 @@ public class EndScene : MonoBehaviour
             StartTyping();
         }
         Crystal.SetActive(true);
+
+
     }
     private void StartTyping()
     {
@@ -59,6 +69,10 @@ public class EndScene : MonoBehaviour
         }
         isTyping = false;
     }
+    private void FinalBoom()
+    {
+        FinalBoomPanel.SetActive(true);
+    }
     public void NextMessage()
     {
         if (!isTyping)
@@ -67,15 +81,39 @@ public class EndScene : MonoBehaviour
             {
                 currentMessageIndex++;
                 StartTyping();
-                if (currentMessageIndex == 8)
+                switch (currentMessageIndex)
                 {
-                    CrystalAnimator.SetTrigger("Pulse");
+                    case 5:
+                        image.sprite = Good;
+                        break;
+                    case 7:
+                        SFXSource.Instance.ScaryAmbientOn();
+                        CrystalAnimator.SetTrigger("Pulse");
+                        image.sprite = Scary;
+                        break;
+                    case 8:
+                        SFXSource.Instance.AlarmOn();
+                        RedLightBack.SetTrigger("Alarm");
+                        RedLightManipulator.SetTrigger("Alarm");
+                        break;
+                    case 9:
+                        image.sprite = Fear;
+                        break;
+                    case 10:
+                        image.sprite = Cry;
+                        break;
                 }
             }
             else
             {
                 panel.SetActive(false);
+                FinalBoom();
+                
             }
+        }
+        else
+        {
+            StopTyping();
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class TextTyper : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class TextTyper : MonoBehaviour
     private Coroutine typingCoroutine;
     private int currentMessageIndex = 0;
     private bool isTyping = false;
+    public Image image;
+    public Sprite Scary;
+    public Sprite Normal;
 
     void OnEnable()
     {
@@ -76,9 +80,14 @@ public class TextTyper : MonoBehaviour
             {
             currentMessageIndex++;
             StartTyping();
+                if (currentMessageIndex == 6)
+                {
+                    image.sprite = Scary;
+                }
                 if (currentMessageIndex == 7)
                 {
-                    animator.SetTrigger("MoveLeft");
+                 animator.SetTrigger("MoveLeft");
+                    image.sprite = Normal;
                 }
             }
             else

@@ -4,10 +4,9 @@ public class SFXSource : MonoBehaviour
 {
     public static SFXSource Instance;
 
+    public AudioSource ScaryMusicAudioSource;
+    public AudioSource Alarm;
     public AudioSource SFXAudioSource;
-    public AudioSource MusicAudioSource;
-    public AudioClip ScaryAmbient;
-    public AudioClip Alarm;
     public AudioClip hower;
     public AudioClip click;
     public AudioClip coock;
@@ -35,4 +34,21 @@ public class SFXSource : MonoBehaviour
     public void PlayError(){
         SFXAudioSource.PlayOneShot(error);
     }
+    public void ScaryAmbientOn()
+    {
+        ScaryMusicAudioSource.Play();
+    }
+    public void ScaryAmbientOff() 
+    { 
+        ScaryMusicAudioSource.Stop();
+    }
+    public void AlarmOn()
+    {
+        Alarm.Play();
+    }
+    public void AlarmOff() 
+    { 
+        Alarm.Stop();
+    }
+
 }
