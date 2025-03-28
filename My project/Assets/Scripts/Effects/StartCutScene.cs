@@ -8,7 +8,7 @@ public class StartCutScene : MonoBehaviour
     public string text;
     public float typingSpeed = 0.05f;
     public TextMeshProUGUI textBox;
-    Animator animator;
+    public Animator animator;
 
     private void StartTyping()
     {

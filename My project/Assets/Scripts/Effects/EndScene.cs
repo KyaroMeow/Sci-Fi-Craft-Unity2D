@@ -87,6 +87,7 @@ public class EndScene : MonoBehaviour
                         image.sprite = Good;
                         break;
                     case 7:
+                        SFXSource.Instance.BackOff();
                         SFXSource.Instance.ScaryAmbientOn();
                         CrystalAnimator.SetTrigger("Pulse");
                         image.sprite = Scary;

@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: 839365e8cdd762945922754ce638bf31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2566173543925303590
+    second: Foam bubble explosion 64 X 64_0
+  - first:
+      213: 5687412347532241295
+    second: Foam bubble explosion 64 X 64_1
+  - first:
+      213: 3673483073761425549
+    second: Foam bubble explosion 64 X 64_2
+  - first:
+      213: 6484044612049725768
+    second: Foam bubble explosion 64 X 64_3
+  - first:
+      213: 3268910215173586175
+    second: Foam bubble explosion 64 X 64_4
+  - first:
+      213: 8222102105446910534
+    second: Foam bubble explosion 64 X 64_5
+  - first:
+      213: 281865639564819256
+    second: Foam bubble explosion 64 X 64_6
+  - first:
+      213: 5656579517077943277
+    second: Foam bubble explosion 64 X 64_7
+  - first:
+      213: -2386206749926967398
+    second: Foam bubble explosion 64 X 64_8
+  - first:
+      213: -6806391606698564528
+    second: Foam bubble explosion 64 X 64_9
+  - first:
+      213: 5030765245701620414
+    second: Foam bubble explosion 64 X 64_10
+  - first:
+      213: -698950523859050934
+    second: Foam bubble explosion 64 X 64_11
+  - first:
+      213: -4047747606915634517
+    second: Foam bubble explosion 64 X 64_12
+  - first:
+      213: 3511165749614441518
+    second: Foam bubble explosion 64 X 64_13
+  - first:
+      213: -115617821975540229
+    second: Foam bubble explosion 64 X 64_14
+  - first:
+      213: -6486568067033203478
+    second: Foam bubble explosion 64 X 64_15
+  - first:
+      213: 2839682596328797949
+    second: Foam bubble explosion 64 X 64_16
+  - first:
+      213: -6718229043376685011
+    second: Foam bubble explosion 64 X 64_17
+  - first:
+      213: -7723350802307885949
+    second: Foam bubble explosion 64 X 64_18
+  - first:
+      213: -1516487411620049410
+    second: Foam bubble explosion 64 X 64_19
+  - first:
+      213: 1015959155158025272
+    second: Foam bubble explosion 64 X 64_20
+  - first:
+      213: -4615308154453811235
+    second: Foam bubble explosion 64 X 64_21
+  - first:
+      213: 2659607103412664692
+    second: Foam bubble explosion 64 X 64_22
+  - first:
+      213: 5402943820875882214
+    second: Foam bubble explosion 64 X 64_23
+  - first:
+      213: -6389485022363005216
+    second: Foam bubble explosion 64 X 64_24
+  - first:
+      213: 6512452208440851188
+    second: Foam bubble explosion 64 X 64_25
+  - first:
+      213: -9197477316096149409
+    second: Foam bubble explosion 64 X 64_26
+  - first:
+      213: -630965512995861390
+    second: Foam bubble explosion 64 X 64_27
+  - first:
+      213: 8190568958915302599
+    second: Foam bubble explosion 64 X 64_28
+  - first:
+      213: 9038777722915465631
+    second: Foam bubble explosion 64 X 64_29
+  - first:
+      213: 1019469953012109035
+    second: Foam bubble explosion 64 X 64_30
+  - first:
+      213: -4918858838668369519
+    second: Foam bubble explosion 64 X 64_31
+  - first:
+      213: 3290375156155647095
+    second: Foam bubble explosion 64 X 64_32
+  - first:
+      213: 7822242488539860988
+    second: Foam bubble explosion 64 X 64_33
+  - first:
+      213: -543961798981720377
+    second: Foam bubble explosion 64 X 64_34
+  - first:
+      213: 5407628915901678909
+    second: Foam bubble explosion 64 X 64_35
+  - first:
+      213: 6206324331755959803
+    second: Foam bubble explosion 64 X 64_36
+  - first:
+      213: 3897240671640235488
+    second: Foam bubble explosion 64 X 64_37
+  - first:
+      213: -4274513167041063084
+    second: Foam bubble explosion 64 X 64_38
+  - first:
+      213: -891306463883542190
+    second: Foam bubble explosion 64 X 64_39
+  - first:
+      213: -7387724139944680186
+    second: Foam bubble explosion 64 X 64_40
+  - first:
+      213: 5045291730525105262
+    second: Foam bubble explosion 64 X 64_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6294ca5fd31ec9320800000000000000
+      internalID: 2566173543925303590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8964d9956fbdee40800000000000000
+      internalID: 5687412347532241295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88b5f38465daf230800000000000000
+      internalID: 3673483073761425549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84962018834fbf950800000000000000
+      internalID: 6484044612049725768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc311275808d5d20800000000000000
+      internalID: 3268910215173586175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a87266d46ca1270800000000000000
+      internalID: 8222102105446910534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b36a84e4369e300800000000000000
+      internalID: 281865639564819256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de37e27d915308e40800000000000000
+      internalID: 5656579517077943277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97b6f58a9d72eed0800000000000000
+      internalID: -2386206749926967398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foam bubble explosion 64 X 64_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054288045e6da81a0800000000000000
+      internalID: -6806391606698564528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3e5bea9fee1204e46a618319c4c54bbd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Foam bubble explosion 64 X 64_0: 2566173543925303590
+      Foam bubble explosion 64 X 64_1: 5687412347532241295
+      Foam bubble explosion 64 X 64_2: 3673483073761425549
+      Foam bubble explosion 64 X 64_3: 6484044612049725768
+      Foam bubble explosion 64 X 64_4: 3268910215173586175
+      Foam bubble explosion 64 X 64_5: 8222102105446910534
+      Foam bubble explosion 64 X 64_6: 281865639564819256
+      Foam bubble explosion 64 X 64_7: 5656579517077943277
+      Foam bubble explosion 64 X 64_8: -2386206749926967398
+      Foam bubble explosion 64 X 64_9: -6806391606698564528
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

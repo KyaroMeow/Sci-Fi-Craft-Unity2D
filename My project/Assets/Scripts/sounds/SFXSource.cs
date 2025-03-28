@@ -3,12 +3,13 @@ using UnityEngine;
 public class SFXSource : MonoBehaviour
 {
     public static SFXSource Instance;
-
+    public AudioSource MusicBack;
     public AudioSource ScaryMusicAudioSource;
     public AudioSource Alarm;
     public AudioSource SFXAudioSource;
     public AudioClip hower;
     public AudioClip click;
+    public AudioClip boom;
     public AudioClip coock;
     public AudioClip error;
     void Awake()
@@ -31,6 +32,11 @@ public class SFXSource : MonoBehaviour
     public void PlayCoock(){
         SFXAudioSource.PlayOneShot(coock);
     }
+    public void PlayBoom(){
+        AlarmOff();
+        BackOff();
+        SFXAudioSource.PlayOneShot(boom);
+    }
     public void PlayError(){
         SFXAudioSource.PlayOneShot(error);
     }
@@ -49,6 +55,9 @@ public class SFXSource : MonoBehaviour
     public void AlarmOff() 
     { 
         Alarm.Stop();
+    }
+    public void BackOff(){
+        MusicBack.Stop();
     }
 
 }

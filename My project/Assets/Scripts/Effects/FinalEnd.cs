@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class FinalEnd : MonoBehaviour
 {
+    public Animator animator;
+    void OnEnable()
+    {
+        SFXSource.Instance.PlayBoom();
+    }
+    public void StartTitr(){
+    animator.SetTrigger("Fade");
+    }
    public void ExitToMenu()
     {
         PlayerPrefs.DeleteAll();

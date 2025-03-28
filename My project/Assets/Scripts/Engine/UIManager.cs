@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
     public Slider MusicVolumeSlider;
     public GameObject HelloPanel;
     public GameObject EndScene;
+    public GameObject BlackHole;
     private bool IsElementsPanelOpen = true;
     private bool settingsIsOpen = false;
     void Start()
@@ -35,6 +36,7 @@ public class UIManager : MonoBehaviour
         if (PlayerPrefs.GetInt("FirstGameSisseion") == 0)
         {
             HelloPanel.SetActive(true);
+            BlackHole.SetActive(true);
         }
     }
     private void Update()
